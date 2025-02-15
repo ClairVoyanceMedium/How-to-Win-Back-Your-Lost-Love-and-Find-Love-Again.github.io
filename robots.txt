@@ -1,42 +1,105 @@
-# Indique aux robots que toutes les pages peuvent être explorées, sauf restrictions spécifiées
+# Fichier robots.txt optimisé pour le site ClairvoyanceMedium
 User-agent: *
+Allow: /
 Disallow: /admin/
-Disallow: /tmp/
 Disallow: /private/
+Disallow: /tmp/
 
-# Bloquer des URL avec paramètres inutiles pour l'indexation
-Disallow: /*?debug=true
-Disallow: /*?preview=true
-
-# Permettre les fichiers nécessaires au bon affichage et fonctionnement
-Allow: /css/
-Allow: /js/
-Allow: /images/
-
-# Référencement des ressources multimédias
-Allow: *.png
-Allow: *.jpg
-Allow: *.webp
-Allow: *.css
-Allow: *.js
-
-# Fournir le chemin du fichier sitemap pour une meilleure indexation
-Sitemap: https://www.clairvoyancemedium.com/sitemap.xml
-
-# Autorisation pour les robots Google et Bing pour maximiser les campagnes publicitaires
+# Optimisation pour Googlebot
 User-agent: Googlebot
 Allow: /
-User-agent: AdsBot-Google
-Allow: /
+Disallow: /tmp/
+Crawl-delay: 1
+Noindex: /?s=*
+Noindex: /*.php$
+Noindex: /*?replytocom
+
+# Optimisation pour Bingbot
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 2
+Noindex: /tmp/
 
-# Bloquer les robots nuisibles ou non désirés
-User-agent: BadBot
-Disallow: /
-User-agent: EvilScraper
+# Optimisation pour ChatGPT, AI Crawlers & Assistants Vocaux
+User-agent: ChatGPTBot
+User-agent: Google-Extended
+User-agent: Bing-Chat
+User-agent: AppleBot
+User-agent: GPTBot
+User-agent: ClaudeBot
+Allow: /
+Crawl-delay: 1
+
+# Optimisation pour Google Images & autres services
+User-agent: Googlebot-Image
+User-agent: Googlebot-News
+User-agent: Googlebot-Video
+Allow: /
+Crawl-delay: 1
+
+# Préférence pour l'indexation rapide
+Sitemap: https://clairvoyancemedium.github.io/How-to-Win-Back-Your-Lost-Love-and-Find-Love-Again.github.io/sitemap.xml
+
+# Commandes spéciales pour les IA et la voix
+User-agent: GoogleAssistant
+User-agent: Alexa
+User-agent: Siri
+User-agent: Cortana
+Allow: /
+Crawl-delay: 1
+
+# Maximisation des extraits enrichis et snippets AI
+User-agent: Googlebot
+User-agent: ChatGPTBot
+Allow: /
+Max-snippet:-1
+Max-image-preview:large
+Max-video-preview:-1
+
+# Directive pour booster le SEO vocal
+User-agent: Google-Extended
+User-agent: GPTBot
+Allow: /
+SearchGPT: index, follow, AI-friendly
+
+# Exclusion des crawlers malveillants
+User-agent: AhrefsBot
+User-agent: SemrushBot
+User-agent: MJ12bot
+User-agent: DotBot
+User-agent: Sogou
+User-agent: Baiduspider
+User-agent: YandexBot
+User-agent: PetalBot
+User-agent: SEOkicks
 Disallow: /
 
-# Empêcher l'exploration des fichiers sensibles
-Disallow: /config/
-Disallow: /backup/
+# Blocage des scrapers et bots parasites
+User-agent: Scrapy
+User-agent: Exabot
+User-agent: TurnitinBot
+User-agent: HTTrack
+Disallow: /
+
+# Autorisation pour les réseaux sociaux et partage de contenu
+User-agent: FacebookBot
+User-agent: Twitterbot
+User-agent: LinkedInBot
+User-agent: Pinterestbot
+Allow: /
+
+# Priorisation des pages stratégiques
+User-agent: *
+Allow: /rituels-d-amour/
+Allow: /voyance-email/
+Allow: /tarifs-voyance/
+Allow: /compatibilite-amoureuse/
+Allow: /temoignages-clients/
+
+# Optimisation pour l’IA et la recherche vocale
+User-agent: ChatGPTBot
+User-agent: Google-Extended
+User-agent: Bing-Chat
+User-agent: ClaudeBot
+User-agent: GPTBot
+Allow: /
