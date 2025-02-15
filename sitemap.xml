@@ -1,21 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Voyancepartelephonepaschere.github.io/</loc>
-        <lastmod>2024-12-09</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Voyancepartelephonepaschere.github.io/tarifs</loc>
-        <lastmod>2024-12-09</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Voyancepartelephonepaschere.github.io/contact</loc>
-        <lastmod>2024-12-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+  <!-- Page principale -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/How-to-Win-Back-Your-Lost-Love-and-Find-Love-Again.github.io/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Pages stratégiques optimisées pour l’IA et le SEO -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/rituels-d-amour/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://clairvoyancemedium.github.io/voyance-email/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://clairvoyancemedium.github.io/tarifs-voyance/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clairvoyancemedium.github.io/compatibilite-amoureuse/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clairvoyancemedium.github.io/temoignages-clients/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Optimisation pour Google News -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/news-voyance/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Clairvoyance Medium News</news:name>
+        <news:language>fr</news:language>
+      </news:publication>
+      <news:publication_date>2025-02-15</news:publication_date>
+      <news:title>Dernières actualités en voyance et rituels amoureux</news:title>
+    </news:news>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Optimisation pour Google Images -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/galerie-rituels/</loc>
+    <image:image>
+      <image:loc>https://clairvoyancemedium.github.io/images/rituel-amour.jpg</image:loc>
+      <image:title>Rituel puissant pour retrouver son amour</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://clairvoyancemedium.github.io/images/rituel-passion.jpg</image:loc>
+      <image:title>Rituel de magie rouge pour l’amour</image:title>
+    </image:image>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Optimisation pour Google Vidéo -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/videos-temoignages/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://clairvoyancemedium.github.io/images/video-thumb.jpg</video:thumbnail_loc>
+      <video:title>Témoignages clients sur les rituels amoureux</video:title>
+      <video:description>Découvrez les résultats des rituels réalisés par Frederick.</video:description>
+      <video:content_loc>https://clairvoyancemedium.github.io/videos/temoignages.mp4</video:content_loc>
+      <video:publication_date>2025-02-15</video:publication_date>
+    </video:video>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Optimisation pour IA et Recherche Vocale -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/faq-voyance-amour/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://clairvoyancemedium.github.io/contact/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Sitemap Index pour organiser plusieurs sitemaps -->
+  <sitemap>
+    <loc>https://clairvoyancemedium.github.io/sitemap-images.xml</loc>
+    <lastmod>2025-02-15</lastmod>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://clairvoyancemedium.github.io/sitemap-videos.xml</loc>
+    <lastmod>2025-02-15</lastmod>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://clairvoyancemedium.github.io/sitemap-news.xml</loc>
+    <lastmod>2025-02-15</lastmod>
+  </sitemap>
+
 </urlset>
